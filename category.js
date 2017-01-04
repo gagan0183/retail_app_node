@@ -3,7 +3,7 @@
  */
 var mongoose = require('mongoose');
 
-var categorySchema = {
+var Category = {
     _id: {
         type: String
     },
@@ -17,5 +17,5 @@ var categorySchema = {
     }]
 };
 
-module.exports = new mongoose.Schema(categorySchema);
-module.exports.categorySchema = categorySchema;
+module.exports = new mongoose.Schema(Category);
+module.exports.Category = Category;

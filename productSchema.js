@@ -2,7 +2,7 @@
  * Created by Gagan on 02-01-2017.
  */
 var mongoose = require('mongoose');
-var Category = require('./categorySchema');
+var Category = require('./category');
 var fx = require('./fx');
 
 var productSchema = {
